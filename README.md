@@ -2,7 +2,7 @@
 
 Baluster is a javascript library to enable estimation of balusters and calculating the spacing to get an even distribution on a constructed railing.
 
-> Note: Please consult your local building codes for maximum spacing requirements. This library assumes maximum distance of 4".
+> Note: Please consult your local building codes for maximum spacing requirements. This library assumes maximum spacing distance of 4".
 
 ## Usage
 
