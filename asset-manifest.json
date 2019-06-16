@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/baluster/static/css/main.f276b772.chunk.css",
+    "main.js": "/baluster/static/js/main.cf101bd1.chunk.js",
+    "main.js.map": "/baluster/static/js/main.cf101bd1.chunk.js.map",
+    "runtime~main.js": "/baluster/static/js/runtime~main.89efc6ea.js",
+    "runtime~main.js.map": "/baluster/static/js/runtime~main.89efc6ea.js.map",
+    "static/js/2.170701c4.chunk.js": "/baluster/static/js/2.170701c4.chunk.js",
+    "static/js/2.170701c4.chunk.js.map": "/baluster/static/js/2.170701c4.chunk.js.map",
+    "index.html": "/baluster/index.html",
+    "precache-manifest.9933f018965d709991d90ca824e77b27.js": "/baluster/precache-manifest.9933f018965d709991d90ca824e77b27.js",
+    "service-worker.js": "/baluster/service-worker.js",
+    "static/css/main.f276b772.chunk.css.map": "/baluster/static/css/main.f276b772.chunk.css.map"
+  }
+}
