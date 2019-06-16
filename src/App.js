@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
     const [innerWidth, setInnerWidth ] = useState(0.0)
-    const setWidth = (val) => setInnerWidth(cur => val + (cur - Math.floor(cur)))
+    const setWidth = (val) => setInnerWidth(cur => Math.min(120, val + (cur - Math.floor(cur))))
     const addFraction = (val) => setInnerWidth(cur => Math.floor(cur) + val)
     let quantity = estimateQuantity(innerWidth)
     let measurements = []
@@ -22,7 +22,7 @@ function App() {
     return (
         <div className="App">
             <h1>Baluster Calculator</h1>
-            <label>Inner Post Width: </label>
+            <label>Inner Post Width (max 120"): </label>
             <input type="number" placeholder="Whole Inches" onChange={e => setWidth(parseInt(e.target.value || 0, 10))}/>
             <label>Fraction:</label>
             <select onChange={e => addFraction(parseFloat(e.target.value))}>
