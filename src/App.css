@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin: 10px;
+}
+
+select {
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+}
+
+input {
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+ol li {
+  text-align: left;
+  padding: 5px 10px;
+  width: 8em;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: auto;
+  }
+}
